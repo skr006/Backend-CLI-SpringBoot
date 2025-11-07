@@ -92,9 +92,24 @@ java -jar target/queuectl.jar worker <subcommand>
 
 **Subcommands:**
 
-| Subcommand | Description              | Options                                   |<br>
-| start      | Start worker threads     | --count <n> Number of workers (default 1) |<br>
-| stop       | Stop all running workers | None                                      |
+<table>
+  <tr>
+    <th>Subcommand</th>
+    <th>Description</th>
+    <th>Options</th>
+  </tr>
+  <tr>
+    <td><code>start</code></td>
+    <td>Start worker threads</td>
+    <td><code>--count &lt;n&gt;</code> Number of workers (default 1)</td>
+  </tr>
+  <tr>
+    <td><code>stop</code></td>
+    <td>Stop all running workers</td>
+    <td>None</td>
+  </tr>
+</table>
+
 
 **Examples:**
 
